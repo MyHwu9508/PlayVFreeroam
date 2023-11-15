@@ -1,0 +1,51 @@
+export const DefaultThemes = {
+  PlayV: {
+    primary: '#c81976',
+    secondary: '#1579c6',
+    tertiary: '#0f855d',
+    success: '#50b50d',
+    warning: '#d48516',
+    error: '#b61b1b',
+    surface: '#2b2a2d',
+    activateInternetFonts: false,
+    fontFamily: 'Rubik',
+    fontColor: '#FFFFFF',
+    rounded: 0.5,
+    roundedContainer: 0.25,
+    border: 0.125,
+  },
+
+  Prismarine: {
+    primary: '#176963',
+    secondary: '#5fa65d',
+    tertiary: '#5da17e',
+    success: '#aeff00',
+    warning: '#ffee00',
+    error: '#ff0000',
+    surface: '#43474f',
+    activateInternetFonts: false,
+    fontFamily: 'system-ui',
+    fontColor: '#ccebe3',
+    rounded: 9999,
+    roundedContainer: 1,
+    border: 3 / 16,
+  },
+
+  Kaniggel: {
+    primary: '#bf4580',
+    secondary: '#4f9da1',
+    tertiary: '#68b38c',
+    success: '#91b557',
+    warning: '#b8b03e',
+    error: '#d44a4a',
+    surface: '#292929',
+    activateInternetFonts: false,
+    fontFamily: 'RobotoMono',
+    fontColor: '#d7dedd',
+    rounded: 0.25,
+    roundedContainer: 0.375,
+    border: 0,
+  },
+} as const;
+
+export default DefaultThemes;

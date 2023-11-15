@@ -1,0 +1,40 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Dev Server",
+      "dependsOn": ["Dev alt:V", "Dev UI"],
+      "dependsOrder": "parallel",
+      "problemMatcher": []
+    },
+    {
+      "label": "Dev alt:V",
+      "type": "shell",
+      "command": "npm run dev",
+      "presentation": {
+        "group": "dev"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build alt:V",
+      "type": "shell",
+      "command": "npm run build"
+    },
+    {
+      "label": "Dev UI",
+      "type": "shell",
+      "command": "npm run dev:ui",
+      "presentation": {
+        "group": "dev"
+      }
+    },
+    {
+      "label": "Build UI",
+      "type": "shell",
+      "command": "npm run build:ui"
+    }
+  ]
+}

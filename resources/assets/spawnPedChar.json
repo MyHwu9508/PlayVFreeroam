@@ -1,0 +1,27 @@
+{
+  "id": 6,
+  "userID": 12,
+  "profileName": "Surfer",
+  "timestamp": "2023-08-22 01:31:00.524819",
+  "overrideMakeupColor": false,
+  "eyeColor": 4,
+  "female": false,
+  "hairIndex": 15,
+  "headBlendData": { "skinMix": 0, "shapeMix": 0.02, "thirdMix": 0.5, "skinFirst": 0, "skinThird": 11, "shapeFirst": 33, "shapeThird": 14, "skinSecond": 0, "shapeSecond": 38 },
+  "headOverlays": [
+    { "index": 0, "colorID": 0, "opacity": 0, "secondColorID": 0 },
+    { "index": 0, "colorID": 0, "opacity": 0, "secondColorID": 0 },
+    { "index": 17, "colorID": 0, "opacity": 0.52, "secondColorID": 0 },
+    { "index": 0, "colorID": 0, "opacity": 0, "secondColorID": 0 },
+    { "index": 0, "colorID": 0, "opacity": 0, "secondColorID": 0 },
+    { "index": 0, "colorID": 0, "opacity": 0, "secondColorID": 0 },
+    { "index": 0, "colorID": 0, "opacity": 0, "secondColorID": 0 },
+    { "index": 0, "colorID": 0, "opacity": 0, "secondColorID": 0 },
+    { "index": 0, "colorID": 0, "opacity": 0, "secondColorID": 0 },
+    { "index": 3, "colorID": 0, "opacity": 0.85, "secondColorID": 0 },
+    { "index": 0, "colorID": 0, "opacity": 0, "secondColorID": 0 },
+    { "index": 0, "colorID": 0, "opacity": 0, "secondColorID": 0 }
+  ],
+  "hairColor": { "colorID": 15, "highlightColorID": 22 },
+  "faceFeature": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+}

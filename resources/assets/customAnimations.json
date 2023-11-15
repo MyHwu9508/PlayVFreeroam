@@ -1,0 +1,984 @@
+[
+  {
+    "categoryName": "Stand",
+    "animations": [
+      {
+        "Name": "Arms crossed, f, street",
+        "Dict": "amb@world_human_hang_out_street@female_arms_crossed@base",
+        "Anim": "base",
+        "Flag": 49
+      },
+      {
+        "Name": "Holding arm",
+        "Dict": "anim_heist@arcade_combined@",
+        "Anim": "ped_female@_stand@_02a@_idles_convo_idle_d",
+        "Flag": 49
+      },
+      {
+        "Name": "Leaning, Legs crossed",
+        "Dict": "amb@world_human_leaning@male@wall@back@legs_crossed@base",
+        "Anim": "base",
+        "Flag": 33
+      },
+      {
+        "Name": "Leaning, call",
+        "Dict": "anim_heist@arcade_combined@",
+        "Anim": "amb@world_human_leaning@male@wall@back@mobile@idle_a",
+        "Flag": 33
+      },
+      {
+        "Name": "Clipboard",
+        "Dict": "anim_heist@arcade_combined@",
+        "Anim": "amb@world_human_clipboard@male@idle_a_idle_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Arms crossed, m, street",
+        "Dict": "anim_heist@arcade_combined@",
+        "Anim": "amb_world_human_hang_out_street_male_c_base",
+        "Flag": 49
+      },
+      {
+        "Name": "Arm side, f",
+        "Dict": "anim_heist@arcade_combined@",
+        "Anim": "female_arm_side@_idle_a_idle_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Arms crossed, Cop",
+        "Dict": "anim@amb@nightclub@peds@",
+        "Anim": "rcmme_amanda1_stand_loop_cop",
+        "Flag": 49
+      },
+      {
+        "Name": "Leaning, smoke",
+        "Dict": "anim@amb@nightclub@peds@",
+        "Anim": "amb_world_human_leaning_male_wall_back_smoking_idle_a",
+        "Flag": 33
+      },
+      {
+        "Name": "Leaning, arms crossed",
+        "Dict": "amb@lo_res_idles@",
+        "Anim": "world_human_lean_male_foot_up_lo_res_base",
+        "Flag": 33
+      },
+      {
+        "Name": "Hold belt, Cop",
+        "Dict": "amb@code_human_wander_idles_cop@male@static",
+        "Anim": "static",
+        "Flag": 49
+      },
+      {
+        "Name": "Arms to hips",
+        "Dict": "amb@code_human_police_investigate@base",
+        "Anim": "base",
+        "Flag": 49
+      },
+      {
+        "Name": "Lean on",
+        "Dict": "amb@prop_human_bum_shopping_cart@male@base",
+        "Anim": "base",
+        "Flag": 33
+      },
+      {
+        "Name": "Arms crossed, m",
+        "Dict": "amb@world_human_cop_idles@female@idle_b",
+        "Anim": "idle_e",
+        "Flag": 49
+      },
+      {
+        "Name": "Eager waiting",
+        "Dict": "anim@miss@low@fin@vagos@",
+        "Anim": "idle_ped06",
+        "Flag": 49
+      },
+      {
+        "Name": "Arms crossed, rotating",
+        "Dict": "anim@heists@heist_corona@single_team",
+        "Anim": "single_team_intro_boss",
+        "Flag": 49
+      },
+      {
+        "Name": "Arms crossed",
+        "Dict": "anim@heists@heist_corona@single_team",
+        "Anim": "single_team_loop_boss",
+        "Flag": 49
+      },
+      {
+        "Name": "Shy guard",
+        "Dict": "missfbi_s4mop",
+        "Anim": "guard_idle_b",
+        "Flag": 49
+      },
+      {
+        "Name": "Lean",
+        "Dict": "rcmminute2lean",
+        "Anim": "idle_c",
+        "Flag": 33
+      },
+      {
+        "Name": "Lean sideways",
+        "Dict": "anim@amb@beach_party@lean@cell_phone@male_a@base",
+        "Anim": "base",
+        "Flag": 33
+      }
+    ]
+  },
+  {
+    "categoryName": "Interaction",
+    "animations": [
+      {
+        "Name": "Handshake A",
+        "Dict": "mp_ped_interaction",
+        "Anim": "handshake_guy_a",
+        "Flag": 1
+      },
+      {
+        "Name": "Handshake B",
+        "Dict": "mp_ped_interaction",
+        "Anim": "handshake_guy_b",
+        "Flag": 1
+      },
+      {
+        "Name": "Kiss A",
+        "Dict": "mp_ped_interaction",
+        "Anim": "kisses_guy_a",
+        "Flag": 1
+      },
+      {
+        "Name": "Kiss B",
+        "Dict": "mp_ped_interaction",
+        "Anim": "kisses_guy_b",
+        "Flag": 1
+      },
+      {
+        "Name": "Bro Hug A",
+        "Dict": "mp_ped_interaction",
+        "Anim": "hugs_guy_a",
+        "Flag": 1
+      },
+      {
+        "Name": "Bro Hug B",
+        "Dict": "mp_ped_interaction",
+        "Anim": "hugs_guy_b",
+        "Flag": 1
+      },
+      {
+        "Name": "Fishing",
+        "Dict": "amb@world_human_stand_fishing@idle_a",
+        "Anim": "idle_c",
+        "Flag": 33
+      },
+      {
+        "Name": "Smoke, m",
+        "Dict": "anim_heist@arcade_combined@",
+        "Anim": "world_human_aa_smoke@_male@_idle_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Security",
+        "Dict": "anim@amb@nightclub@peds@",
+        "Anim": "amb_world_human_stand_guard_male_base",
+        "Flag": 49
+      },
+      {
+        "Name": "Typing",
+        "Dict": "anim@amb@nightclub@peds@",
+        "Anim": "amb_medic_standing_timeofdeath_base",
+        "Flag": 49
+      },
+      {
+        "Name": "Wave",
+        "Dict": "anim@amb@waving@female",
+        "Anim": "ground_wave",
+        "Flag": 49
+      },
+      {
+        "Name": "Binoculars",
+        "Dict": "amb@world_human_binoculars@male@base",
+        "Anim": "base",
+        "Flag": 49
+      },
+      {
+        "Name": "Clap",
+        "Dict": "amb@world_human_cheering@male_e",
+        "Anim": "base",
+        "Flag": 49
+      },
+      {
+        "Name": "Mechanic",
+        "Dict": "amb@world_human_vehicle_mechanic@male@base",
+        "Anim": "base",
+        "Flag": 33
+      },
+      {
+        "Name": "Welding",
+        "Dict": "amb@world_human_welding@male@base",
+        "Anim": "base",
+        "Flag": 49
+      },
+      {
+        "Name": "Hands up",
+        "Dict": "missfbi5ig_20b",
+        "Anim": "hands_up_scientist",
+        "Flag": 49
+      },
+      {
+        "Name": "Press ups",
+        "Dict": "switch@franklin@press_ups",
+        "Anim": "pressups_loop",
+        "Flag": 33
+      },
+      {
+        "Name": "Air shagging",
+        "Dict": "anim@mp_player_intcelebrationfemale@air_shagging",
+        "Anim": "air_shagging",
+        "Flag": 49
+      },
+      {
+        "Name": "Docking",
+        "Dict": "anim@mp_player_intcelebrationfemale@dock",
+        "Anim": "dock",
+        "Flag": 49
+      },
+      {
+        "Name": "Facepalm 1",
+        "Dict": "anim@mp_player_intcelebrationfemale@face_palm",
+        "Anim": "face_palm",
+        "Flag": 49
+      },
+      {
+        "Name": "Facepalm 2",
+        "Dict": "anim@mp_player_intcelebrationfemale@face_palm",
+        "Anim": "face_palm",
+        "Flag": 49
+      },
+      {
+        "Name": "Thumbs up",
+        "Dict": "anim@mp_player_intcelebrationfemale@thumbs_up",
+        "Anim": "thumbs_up",
+        "Flag": 49
+      },
+      {
+        "Name": "Thumbs up 2",
+        "Dict": "anim@mp_player_intcelebrationmale@thumbs_up",
+        "Anim": "thumbs_up",
+        "Flag": 33
+      },
+      {
+        "Name": "Thumbs up 3",
+        "Dict": "anim@mp_player_intselfiethumbs_up",
+        "Anim": "idle_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Fist bumb",
+        "Dict": "anim@mp_player_intcelebrationpaired@m_m_fist_bump",
+        "Anim": "fist_bump_right",
+        "Flag": 33
+      },
+      {
+        "Name": "Air guitar",
+        "Dict": "anim@mp_player_intcelebrationfemale@air_guitar",
+        "Anim": "air_guitar",
+        "Flag": 33
+      },
+      {
+        "Name": "Air synth",
+        "Dict": "anim@mp_player_intcelebrationfemale@air_synth",
+        "Anim": "air_synth",
+        "Flag": 33
+      },
+      {
+        "Name": "Shush, be quiet",
+        "Dict": "anim@mp_player_intcelebrationfemale@shush",
+        "Anim": "shush",
+        "Flag": 49
+      },
+      {
+        "Name": "Wave 2",
+        "Dict": "anim@mp_player_intcelebrationfemale@wave",
+        "Anim": "wave",
+        "Flag": 33
+      },
+      {
+        "Name": "Bro hug right",
+        "Dict": "anim@mp_player_intcelebrationpaired@f_f_bro_hug",
+        "Anim": "bro_hug_right",
+        "Flag": 33
+      },
+      {
+        "Name": "Air kiss",
+        "Dict": "anim@mp_player_intcelebrationmale@blow_kiss",
+        "Anim": "blow_kiss",
+        "Flag": 49
+      },
+      {
+        "Name": "Salut!",
+        "Dict": "anim@mp_player_intcelebrationmale@salute",
+        "Anim": "salute",
+        "Flag": 33
+      },
+      {
+        "Name": "Wank",
+        "Dict": "anim@mp_player_intcelebrationmale@wank",
+        "Anim": "wank",
+        "Flag": 33
+      },
+      {
+        "Name": "Cats cradle",
+        "Dict": "anim@mp_player_intcelebrationfemale@cats_cradle",
+        "Anim": "cats_cradle",
+        "Flag": 33
+      },
+      {
+        "Name": "Find the fish",
+        "Dict": "anim@mp_player_intcelebrationfemale@find_the_fish",
+        "Anim": "find_the_fish",
+        "Flag": 33
+      },
+      {
+        "Name": "Heart pumping",
+        "Dict": "anim@mp_player_intcelebrationfemale@heart_pumping",
+        "Anim": "heart_pumping",
+        "Flag": 33
+      },
+      {
+        "Name": "Raise the roof",
+        "Dict": "anim@mp_player_intcelebrationfemale@raise_the_roof",
+        "Anim": "raise_the_roof",
+        "Flag": 33
+      },
+      {
+        "Name": "Air drums",
+        "Dict": "anim@mp_player_intcelebrationmale@air_drums",
+        "Anim": "air_drums",
+        "Flag": 33
+      },
+      {
+        "Name": "Bang bang like James Blond",
+        "Dict": "anim@mp_player_intcelebrationmale@bang_bang",
+        "Anim": "bang_bang",
+        "Flag": 33
+      },
+      {
+        "Name": "Peace",
+        "Dict": "anim@mp_player_intcelebrationfemale@peace",
+        "Anim": "peace",
+        "Flag": 33
+      },
+      {
+        "Name": "Peace 2",
+        "Dict": "amb@code_human_in_car_mp_actions@v_sign@bodhi@rps@base",
+        "Anim": "idle_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Waving with both arms",
+        "Dict": "random@car_thief@victimpoints_ig_3",
+        "Anim": "arms_waving",
+        "Flag": 33
+      },
+      {
+        "Name": "Winner",
+        "Dict": "anim@arena@celeb@podium@no_prop@",
+        "Anim": "hands_air_b_1st",
+        "Flag": 33
+      },
+      {
+        "Name": "Cleaning surface (wall)",
+        "Dict": "amb@world_human_maid_clean@base",
+        "Anim": "base",
+        "Flag": 49
+      },
+      {
+        "Name": "Cleaning surface (table/car)",
+        "Dict": "timetable@floyd@clean_kitchen@base",
+        "Anim": "base",
+        "Flag": 49
+      },
+      {
+        "Name": "Ok!",
+        "Dict": "anim@mp_player_intselfiedock",
+        "Anim": "idle_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Middlefinger",
+        "Dict": "anim@mp_player_intselfiethe_bird",
+        "Anim": "idle_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Oops!",
+        "Dict": "anim@mp_player_intselfieblow_kiss",
+        "Anim": "idle_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Kicking a stone",
+        "Dict": "anim@mp_freemode_return@f@fail",
+        "Anim": "fail_a",
+        "Flag": 33
+      },
+      {
+        "Name": "Enumerate",
+        "Dict": "special_ped@jane@monologue_5@monologue_5d",
+        "Anim": "brotheradrianhasshown_3",
+        "Flag": 49
+      },
+      {
+        "Name": "Gangsign",
+        "Dict": "mp_player_int_uppergang_sign_a",
+        "Anim": "mp_player_int_gang_sign_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Waving like a Queen!",
+        "Dict": "anim@mp_player_intupperwave",
+        "Anim": "idle_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Pissing 1",
+        "Dict": "missbigscore1switch_trevor_piss",
+        "Anim": "piss_loop",
+        "Flag": 33
+      },
+      {
+        "Name": "Pissing 2",
+        "Dict": "missheist_agency3aig_23",
+        "Anim": "urinal_asifyouneededproof",
+        "Flag": 33
+      },
+      {
+        "Name": "Pooping",
+        "Dict": "missfbi3ig_0",
+        "Anim": "shit_react_trev",
+        "Flag": 33
+      },
+      {
+        "Name": "Nose picking",
+        "Dict": "anim@mp_player_intincarnose_pickbodhi@ds@",
+        "Anim": "idle_a",
+        "Flag": 49
+      },
+      {
+        "Name": "Pawing nutts",
+        "Dict": "amb@code_human_in_car_mp_actions@grab_crotch@std@ds@base",
+        "Anim": "idle_a",
+        "Flag": 49
+      }
+    ]
+  },
+  {
+    "categoryName": "On Ground",
+    "animations": [
+      {
+        "Name": "Sitting on ground, smoking",
+        "Dict": "anim_heist@arcade_combined@",
+        "Anim": "jimmy@_smoking_idle_01",
+        "Flag": 33
+      },
+      {
+        "Name": "Sitting on ground, sad",
+        "Dict": "anim_heist@arcade_combined@",
+        "Anim": "jimmy@_smoking_base",
+        "Flag": 33
+      },
+      {
+        "Name": "Sitting on ground, legs apart",
+        "Dict": "amb@lo_res_idles@",
+        "Anim": "world_human_picnic_male_lo_res_base",
+        "Flag": 33
+      },
+      {
+        "Name": "Sleeping",
+        "Dict": "amb@lo_res_idles@",
+        "Anim": "world_human_bum_slumped_right_lo_res_base",
+        "Flag": 33
+      },
+      {
+        "Name": "Surrender, f, ground",
+        "Dict": "missheist_jewel",
+        "Anim": "jh_2b_endloop_female1",
+        "Flag": 33
+      },
+      {
+        "Name": "Surrender, m, ground",
+        "Dict": "missheist_jewel",
+        "Anim": "jh_2b_endloop_male3",
+        "Flag": 33
+      },
+      {
+        "Name": "Lay on ground (back), hurt",
+        "Dict": "missheist_jewel",
+        "Anim": "gassed_npc_customer1",
+        "Flag": 33
+      },
+      {
+        "Name": "Lay on ground, front",
+        "Dict": "amb@lo_res_idles@",
+        "Anim": "lying_face_down_lo_res_base",
+        "Flag": 33
+      },
+      {
+        "Name": "Lay on ground, back",
+        "Dict": "amb@lo_res_idles@",
+        "Anim": "lying_face_up_lo_res_base",
+        "Flag": 33
+      },
+      {
+        "Name": "Sitting on ground, f",
+        "Dict": "amb@lo_res_idles@",
+        "Anim": "world_human_picnic_female_lo_res_base",
+        "Flag": 33
+      },
+      {
+        "Name": "Kneel",
+        "Dict": "amb@medic@standing@kneel@base",
+        "Anim": "base",
+        "Flag": 33
+      },
+      {
+        "Name": "Kneel, surrender",
+        "Dict": "missheist_jewel",
+        "Anim": "manageress_kneel_loop",
+        "Flag": 33
+      },
+      {
+        "Name": "Sitting on ground, dazed",
+        "Dict": "amb@world_human_stupor@male@base",
+        "Anim": "base"
+      },
+      {
+        "Name": "Sunbathe, f, back",
+        "Dict": "amb@world_human_sunbathe@female@back@base",
+        "Anim": "base",
+        "Flag": 33
+      },
+      {
+        "Name": "Sunbathe, f, front",
+        "Dict": "amb@world_human_sunbathe@female@front@base",
+        "Anim": "base",
+        "Flag": 33
+      },
+      {
+        "Name": "Sunbathe, m, back",
+        "Dict": "amb@world_human_sunbathe@male@back@base",
+        "Anim": "base",
+        "Flag": 33
+      },
+      {
+        "Name": "Sunbathe, m, front",
+        "Dict": "amb@world_human_sunbathe@male@front@base",
+        "Anim": "base",
+        "Flag": 33
+      },
+      {
+        "Name": "Dead",
+        "Dict": "missfbi1",
+        "Anim": "cpr_pumpchest_idle",
+        "Flag": 33
+      }
+    ]
+  },
+  {
+    "categoryName": "Dances",
+    "animations": [
+      {
+        "Name": "Fischgang",
+        "Dict": "anim@mp_player_intcelebrationfemale@find_the_fish",
+        "Anim": "find_the_fish",
+        "Flag": 33
+      },
+      {
+        "Name": "Slow dance with beer in hand",
+        "Dict": "anim@amb@nightclub@peds@",
+        "Anim": "amb_world_human_partying_female_partying_beer_base",
+        "Flag": 33
+      },
+      {
+        "Name": "Lapdance, here is my ass",
+        "Dict": "anim@amb@nightclub@peds@",
+        "Anim": "mini_strip_club_lap_dance_ld_girl_a_song_a_p1",
+        "Flag": 33
+      },
+      {
+        "Name": "Slow Groovie Dance",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "mi_dance_facedj_11_v2_male^5",
+        "Flag": 33
+      },
+      {
+        "Name": "Pop dance",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_11_v1_female^3",
+        "Flag": 33
+      },
+      {
+        "Name": "Another dance",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_17_v1_female^6",
+        "Flag": 33
+      },
+      {
+        "Name": "Female dance",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_09_v2_female^3",
+        "Flag": 33
+      },
+      {
+        "Name": "Dance with footstepps",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj_transitions@",
+        "Anim": "trans_dance_facedj_hi_to_mi_09_v1_male^4",
+        "Flag": 33
+      },
+      {
+        "Name": "Arms in the air dance",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj_transitions@",
+        "Anim": "trans_dance_facedj_mi_to_hi_08_v1_female^5",
+        "Flag": 33
+      },
+      {
+        "Name": "Hip Hop",
+        "Dict": "missfbi3_sniping",
+        "Anim": "dance_m_default",
+        "Flag": 33
+      },
+      {
+        "Name": "Drunken as hell",
+        "Dict": "move_clown@p_m_zero_idles@",
+        "Anim": "fidget_short_dance",
+        "Flag": 33
+      },
+      {
+        "Name": "Tap Dance 1",
+        "Dict": "special_ped@mountain_dancer@base",
+        "Anim": "base",
+        "Flag": 33
+      },
+      {
+        "Name": "Tap Dance 2",
+        "Dict": "special_ped@mountain_dancer@monologue_1@monologue_1a",
+        "Anim": "mtn_dnc_if_you_want_to_get_to_heaven",
+        "Flag": 33
+      },
+      {
+        "Name": "Tap Dance 3",
+        "Dict": "special_ped@mountain_dancer@monologue_2@monologue_2a",
+        "Anim": "mnt_dnc_angel",
+        "Flag": 33
+      },
+      {
+        "Name": "Tap Dance 4",
+        "Dict": "special_ped@mountain_dancer@monologue_3@monologue_3a",
+        "Anim": "mnt_dnc_buttwag",
+        "Flag": 33
+      },
+      {
+        "Name": "Listless Dance 1",
+        "Dict": "anim@amb@nightclub@dancers@black_madonna_entourage@",
+        "Anim": "li_dance_facedj_11_v1_male^1"
+      },
+      {
+        "Name": "Listless Dance 2",
+        "Dict": "anim@amb@nightclub@dancers@black_madonna_entourage@",
+        "Anim": "li_dance_facedj_15_v2_male^2",
+        "Flag": 33
+      },
+      {
+        "Name": "Dull Dance 1",
+        "Dict": "anim@amb@nightclub@dancers@black_madonna_entourage@",
+        "Anim": "hi_dance_facedj_09_v2_male^5",
+        "Flag": 33
+      },
+      {
+        "Name": "Dull Dance 2",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "mi_dance_facedj_11_v2_male^5",
+        "Flag": 33
+      },
+      {
+        "Name": "Arms to the mid",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_09_v1_female^5",
+        "Flag": 33
+      },
+      {
+        "Name": "Complete escalation",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_15_v2_male^4",
+        "Flag": 33
+      },
+      {
+        "Name": "Grove 1",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_17_v1_female^6",
+        "Flag": 33
+      },
+      {
+        "Name": "Grove 2",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_17_v2_female^1",
+        "Flag": 33
+      },
+      {
+        "Name": "Grove 3",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_13_v2_male^4",
+        "Flag": 33
+      },
+      {
+        "Name": "The bass is kicking!",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_11_v1_male^2",
+        "Flag": 33
+      },
+      {
+        "Name": "Bouncing knees",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_17_v1_male^4",
+        "Flag": 33
+      },
+      {
+        "Name": "Clown on drugs",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_09_v2_male^4",
+        "Flag": 33
+      },
+      {
+        "Name": "Lil' happy dance",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_13_v2_female^5",
+        "Flag": 33
+      },
+      {
+        "Name": "Just my thing!",
+        "Dict": "anim@amb@nightclub@dancers@black_madonna_entourage@",
+        "Anim": "hi_dance_facedj_09_v2_male^5",
+        "Flag": 33
+      },
+      {
+        "Name": "Completely befuddled",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "mi_dance_facedj_15_v2_male^3",
+        "Flag": 33
+      },
+      {
+        "Name": "Feeling the vibe",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "mi_dance_facedj_15_v2_male^2",
+        "Flag": 33
+      },
+      {
+        "Name": "The substance kicks",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "mi_dance_facedj_15_v1_female^5",
+        "Flag": 33
+      },
+      {
+        "Name": "Give it to me",
+        "Dict": "anim@mp_player_intuppersuck_it",
+        "Anim": "idle_a",
+        "Flag": 33
+      },
+      {
+        "Name": "Side to side",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "mi_dance_facedj_11_v2_female^1",
+        "Flag": 33
+      },
+      {
+        "Name": "Basic shuffle",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "mi_dance_facedj_17_v1_male^4",
+        "Flag": 33
+      },
+      {
+        "Name": "Vibey",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "mi_dance_facedj_15_v1_male^2",
+        "Flag": 33
+      },
+      {
+        "Name": "Jogging on the spot",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "mi_dance_facedj_09_v1_male^4",
+        "Flag": 33
+      },
+      {
+        "Name": "Deep bass",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "hi_dance_facedj_13_v2_male^2",
+        "Flag": 33
+      },
+      {
+        "Name": "Quite relaxed",
+        "Dict": "anim@amb@nightclub@dancers@crowddance_facedj@",
+        "Anim": "mi_dance_facedj_11_v2_male^4",
+        "Flag": 33
+      },
+      {
+        "Name": "Bees in butt",
+        "Dict": "anim@amb@casino@mini@dance@dance_solo@female@var_a@",
+        "Anim": "high_center",
+        "Flag": 33
+      },
+      {
+        "Name": "Sexy dance 2",
+        "Dict": "mini@strip_club@private_dance@part2",
+        "Anim": "priv_dance_p2",
+        "Flag": 33
+      },
+      {
+        "Name": "Pole dance",
+        "Dict": "mini@strip_club@pole_dance@pole_dance3",
+        "Anim": "pd_dance_03",
+        "Flag": 33
+      },
+      {
+        "Name": "Hands in front of head",
+        "Dict": "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
+        "Anim": "med_center_up",
+        "Flag": 33
+      },
+      {
+        "Name": "Shuffle 2",
+        "Dict": "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
+        "Anim": "high_center",
+        "Flag": 33
+      },
+      {
+        "Name": "Shaking out",
+        "Dict": "anim@amb@nightclub@mini@dance@dance_solo@jumper@",
+        "Anim": "high_left_up",
+        "Flag": 33
+      }
+    ]
+  },
+  {
+    "categoryName": "DJ",
+    "animations": [
+      {
+        "Name": "Just dance",
+        "Dict": "anim@amb@nightclub@djs@dixon@",
+        "Anim": "dixn_trns_lh_to_cntr_dix",
+        "Flag": 33
+      },
+      {
+        "Name": "Mixing panel 1",
+        "Dict": "anim@amb@nightclub@djs@black_madonna@",
+        "Anim": "pose_c_loop_tiny_blamadon",
+        "Flag": 33
+      },
+      {
+        "Name": "Mixing panel 2",
+        "Dict": "anim@scripted@nightclub@dj@kmuzk@andme@",
+        "Anim": "nme_mix_idle_l_15",
+        "Flag": 33
+      },
+      {
+        "Name": "Sync and mix",
+        "Dict": "anim@amb@nightclub@djs@black_madonna@",
+        "Anim": "pose_c_idle_f_blamadon",
+        "Flag": 33
+      },
+      {
+        "Name": "Feeling the mix",
+        "Dict": "anim@amb@nightclub@djs@dixon@",
+        "Anim": "dixn_sync_cntr_g_dix",
+        "Flag": 33
+      },
+      {
+        "Name": "Concentrated on the mixer",
+        "Dict": "anim@amb@nightclub@djs@dixon@",
+        "Anim": "dixn_idle_cntr_i_dix",
+        "Flag": 33
+      },
+      {
+        "Name": "Wobbly knees",
+        "Dict": "anim@amb@nightclub@djs@solomun@",
+        "Anim": "sol_dance_g_sol",
+        "Flag": 33
+      },
+      {
+        "Name": "End the set",
+        "Dict": "anim@scripted@nightclub@dj@switch@keinemuzik_djset_switchover@",
+        "Anim": "kei_end_kei2",
+        "Flag": 33
+      },
+      {
+        "Name": "Syncing",
+        "Dict": "anim@amb@nightclub@djs@tale_of_us@",
+        "Anim": "tou_sync_a_talcc",
+        "Flag": 33
+      }
+    ]
+  },
+  {
+    "categoryName": "Sitting (bench)",
+    "animations": [
+      {
+        "Name": "Russian seat",
+        "Dict": "anim@amb@business@cfm@cfm_machine_no_work@",
+        "Anim": "hanging_out_operator",
+        "Flag": 33
+      },
+      {
+        "Name": "Sitting on bench, sad",
+        "Dict": "random@crash_rescue@get_victim_to_friend",
+        "Anim": "helping_friend_idle_friend",
+        "Flag": 33
+      },
+      {
+        "Name": "Sitting normal",
+        "Dict": "switch@michael@sitting",
+        "Anim": "idle",
+        "Flag": 33
+      },
+      {
+        "Name": "Engine hood",
+        "Dict": "switch@michael@sitting_on_car_bonnet",
+        "Anim": "sitting_on_car_bonnet_loop",
+        "Flag": 33
+      },
+      {
+        "Name": "Engine hood 2",
+        "Dict": "switch@michael@sitting_on_car_premiere",
+        "Anim": "sitting_on_car_premiere_loop_player",
+        "Flag": 33
+      },
+      {
+        "Name": "Bent",
+        "Dict": "anim@heists@fleeca_bank@hostages@intro",
+        "Anim": "intro_loop_ped_a",
+        "Flag": 33
+      },
+      {
+        "Name": "Feminine",
+        "Dict": "timetable@reunited@ig_10",
+        "Anim": "base_amanda",
+        "Flag": 33
+      },
+      {
+        "Name": "Chilling",
+        "Dict": "switch@franklin@stripclub",
+        "Anim": "002113_02_fras_15_stripclub_idle",
+        "Flag": 33
+      },
+      {
+        "Name": "Leaning back",
+        "Dict": "switch@michael@goodbye_to_jimmy",
+        "Anim": "base",
+        "Flag": 33
+      },
+      {
+        "Name": "Leaning back 2",
+        "Dict": "timetable@maid@couch@",
+        "Anim": "base",
+        "Flag": 33
+      }
+    ]
+  }
+]

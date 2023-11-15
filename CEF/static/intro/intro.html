@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Intro</title>
+</head>
+<body>
+	<div style="width: 100%; height: 100%; inset: 0; position: fixed; pointer-events: none;">
+		<video width="100%" height="100%" autoplay oncanplaythrough="videoReady()">
+			<source src="intro60p.webm" type="video/webm" />
+		</video>
+	</div>
+
+</body>
+<script>
+	function videoReady() {
+		const videoElement = document.querySelector("video");
+		videoElement.play(); // Manually play the video
+
+		// Trigger the cef:ready event
+		if (typeof alt !== 'undefined' && alt.emit) {
+			alt.emit('cef:ready');
+		}
+	}
+</script>
+</html>

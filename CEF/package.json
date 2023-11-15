@@ -1,0 +1,43 @@
+{
+  "name": "cef",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@skeletonlabs/skeleton": "2.0.0",
+    "@skeletonlabs/tw-plugin": "0.1.0",
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.20.4",
+    "@tailwindcss/forms": "0.5.6",
+    "@tailwindcss/typography": "0.5.10",
+    "@types/node": "20.6.0",
+    "autoprefixer": "10.4.15",
+    "postcss": "8.4.29",
+    "svelte": "^4.0.5",
+    "svelte-check": "^3.4.3",
+    "tailwindcss": "3.3.3",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "typescript-svelte-plugin": "^0.3.34",
+    "vite": "^4.4.2",
+    "vite-plugin-tailwind-purgecss": "0.1.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@altv/types-webview": "^1.0.7",
+    "@egoist/tailwindcss-icons": "^1.1.0",
+    "@floating-ui/dom": "1.5.1",
+    "@iconify-json/carbon": "^1.1.21",
+    "@pixi/picture": "^4.0.1",
+    "@sveltejs/adapter-static": "^2.0.3",
+    "highlight.js": "11.8.0",
+    "howler": "^2.2.3",
+    "pixi.js": "^7.3.1"
+  }
+}
