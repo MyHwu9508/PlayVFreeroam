@@ -14,9 +14,6 @@ crashdumps/
 package-lock.json
 ipc.txt
 .env
-server.toml
-1server.toml
-2server.toml
 data/*
 !resources/assets/
 !resources/bug/

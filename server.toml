@@ -1,0 +1,61 @@
+description = 'test'
+website = 'test.com'
+gamemode = 'Freeroam'
+
+language = 'en'
+modules = [ 'js-module']
+name = 'PlayV.mp Freeroam Server'
+players = 1024
+port = 7788
+tags = [ 'customTag1', 'customTag2', 'customTag3', 'customTag4' ]
+
+resources = [
+'bug',
+'assets',
+'playv'
+]
+
+# Max size of client to server script events in bytes
+maxClientScriptEventSize = 32000
+# Max size of server to client script events in bytes
+maxServerScriptEventSize = 1024000
+
+# Turn this off in production mode
+debug = true
+#announce = true
+#token = ''
+spawnAfterConnect = true
+
+#streamingDistance = 30
+streamingDistance = 400
+#migrationDistance = 380
+
+# Leave host as 0.0.0.0, don't change it.
+host = '0.0.0.0'
+
+
+[js-module]
+global-webcrypto = true
+global-fetch = true
+
+[voice]
+bitrate = 128000
+
+[database]
+host = '127.0.0.1'
+port = 5432
+username = 'postgres' #Use your own credentials!
+password = 'postgres' #Use your own credentials!
+database = 'playv' #Use your own credentials!
+refreshScheme = true #USE FALSE IN PRODUCTION!!!!
+
+[discordlogin]
+redirectURI = 'http://127.0.0.1:42069/authenticate'
+clientsecret = 'Add secret from your auth bot here'
+listenerPath = '/' #listen for redirects use /authenticate for localhost
+
+
+[ports]
+discordauthport = '42069' #Port for the authenticate bot
+discordbotsocket = '42070' #Port for socket.io connection to publish player count
+adminpanelsocket = '42071' #Unused/ not implemented
