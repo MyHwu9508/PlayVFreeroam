@@ -27,22 +27,25 @@ Special thanks to our users, team members and co-developer **[tomatenbaumful](ht
 
 1. Clone this repo to your local pc
 
-2. Database setup
-   For a smooth experience we suggest installing and using [PostgreSQL](https://www.postgresql.org/download/) for the database. Since we used typeorm you can also use any other database tool, that works with typeorm. To change the database type change the 'type' value in src/playv/server/systems/db/TypeORM.ts .
+2. Database setup: 
+   For a smooth experience we suggest installing and using [PostgreSQL](https://www.postgresql.org/download/) for the database. Since we used typeorm you can also use any other database tool, that works with typeorm. To change the database type change the 'type' value in src/playv/server/systems/db/TypeORM.ts . Also when changing the database type you need to change some types for the database entities, otherwise the server start will fail.
 
-3. alt:V setup
+3. alt:V setup: 
    Download the release server version of alt:V and paste it into the root folder of the cloned git repo
 
-4. Node Modules
+4. Node Modules: 
    Make sure you have the latest [Node.js](https://nodejs.org/en) version installed on your machine, then
    navigate into the cloned repo and run `npm i`. Also navigate to the CEF folder and also run `npm i`.
 
-5. Server Config
+5. Server Config: 
    Open the server.toml file and edit the database config matching your database credentials. If you consider using the server public make sure you create a Discord Bot and add the matching token to the server.toml
 
 ## Starting the server
 
-Open a terminal and run in the root folder of the project the command `npm run dev`. Then open another terminal and run `npm run dev:ui` to start the UI.
+Open a terminal and run in the root folder of the project the command `npm run dev`.
+
+When using ```debug = true``` in the client config run `npm run dev:ui` to start the UI.
+If you don't use the debug mode, please build the UI once by using the `npm run build:ui` once.
 
 Start your alt:V client on release branch and direct connect to localhost:7788
 
@@ -120,13 +123,8 @@ After your first connect to the server change your authLevel to any higher then 
 
 ## Help
 
-**Please note, that we don't provide support for the database connection, or the Discord Authentication**
-In case you have any questions or concerns regarding this, feel free to contact us on Discord.
-
-**Kaniggel**
-**Tomatenbaum**
-
-Alternatively you can join our Discord and create a ticket: https://playv.mp/discord
+**Please note, that we don't provide support for the database connection, or the Discord Authentication!** 
+In case you have any questions or concerns regarding this resource, feel free to contact us on Discord by opening a support ticket https://playv.mp/discord .
 
 ## License
 
