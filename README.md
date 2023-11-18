@@ -31,13 +31,17 @@ Special thanks to our users, team members and co-developer **[tomatenbaumful](ht
    For a smooth experience we suggest installing and using [PostgreSQL](https://www.postgresql.org/download/) for the database. Since we used typeorm you can also use any other database tool, that works with typeorm. To change the database type change the 'type' value in src/playv/server/systems/db/TypeORM.ts . Also when changing the database type you need to change some types for the database entities, otherwise the server start will fail.
 
 3. alt:V setup: 
-   Download the release server version of alt:V and paste it into the root folder of the cloned git repo
+   Download the release server version of alt:V and paste it into the root folder of the cloned git repo. Please also download and copy the data folder, js module and if used in production also the bytecode module. 
 
-4. Node Modules: 
+   ![Download instructions](https://github.com/MyHwu9508/PlayVFreeroam/assets/16681058/cfe32e33-34fe-41e7-8b59-9dde9e643639) 
+
+
+
+5. Node Modules: 
    Make sure you have the latest [Node.js](https://nodejs.org/en) version installed on your machine, then
    navigate into the cloned repo and run `npm i`. Also navigate to the CEF folder and also run `npm i`.
 
-5. Server Config: 
+6. Server Config: 
    Open the server.toml file and edit the database config matching your database credentials. If you consider using the server public make sure you create a Discord Bot and add the matching token to the server.toml
 
 ## Starting the server
