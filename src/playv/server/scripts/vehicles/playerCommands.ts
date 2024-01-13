@@ -18,7 +18,7 @@ const _allowedVehicleAttributes = [
   'secondaryColor',
   'numberPlateText',
   'lockState',
-  'numberPlateType',
+  'numberPlateIndex',
   'neon',
   'neonColor',
   'headlightColor',
