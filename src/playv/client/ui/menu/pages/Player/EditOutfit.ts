@@ -70,7 +70,7 @@ const clothes = {
   bracelets: 'Bracelets',
 };
 for (const [key, cloth] of Object.entries(clothes)) {
-  const item = (itemSelectors[key] = page.addNumberSelect(cloth, key in propIndex ? -1 : 0, 100, 1, 0));
+  const item = (itemSelectors[key] = page.addNumberSelect(cloth, key in propIndex ? -1 : 0, 213, 1, 0));
   const texture = (texturesSelectors[key] = page.addNumberSelect(cloth + ' Texture', 0, 100, 1, 0));
 
   item
