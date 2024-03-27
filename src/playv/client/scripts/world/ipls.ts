@@ -20,6 +20,9 @@ export function loadDefaultIPLs() {
   alt.requestIpl('vw_dlc_casino_door');
   alt.requestIpl('hei_dlc_casino_door');
 
+  //Casino Penthouse Windows
+  alt.requestIpl('hei_dlc_windows_casino');
+
   //Kackyo Perico
 
   alt.requestIpl('h4_islandairstrip');
